@@ -1,0 +1,49 @@
+@charset "UTF-8"
+;*{
+    margin: 0;
+    padding: 0px;
+}
+@media screen and (min-width:620px) and (max-width:792px) {
+    nav{
+        margin-left: 140px;
+    }
+    #imagem{
+        height: 320px;
+        margin: auto;
+        margin-left: 40px;
+    }
+    #imagem section{
+        min-width: 170px;
+        max-width: 210px;
+        height: 260px;
+        margin-left: 20px;
+    }
+    .paragrafo{
+        margin: auto;
+        width: 620px;
+    }
+    #look{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    #lista{
+        margin-bottom: 50px;
+    }
+    #lista section{
+        margin-left: 80px;
+    }
+    #texto{
+        height: 320px;
+        width: 600px;
+        margin: auto;
+    }
+    .imagem img{
+        width: 240px;
+        
+    }
+    #texto .carrossel{
+        width: 80%;
+        height: 280px;
+    }
+}

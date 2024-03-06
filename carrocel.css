@@ -1,0 +1,89 @@
+@charset "UTF-8"
+
+;*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+.carrossel{
+    margin: auto;
+    width: 210px;
+    height: 260px;
+    overflow: hidden;
+    border: 1px solid rgb(231, 231, 231);
+}
+.slid{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+.slid input{
+    display: none;
+}
+.imagem {
+    width: 25%;
+    position: relative; 
+    transition: 2s;
+}
+.imagem img{
+    width: 210px;
+}
+.manual-naveg{
+    position: absolute;
+    width: 480px;
+    margin-top: -130px;
+    display: flex;
+    justify-content: center;
+}
+.manual{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual:not(:last-child){
+    margin-right: 10px;
+}
+.manual:hover{
+    background-color: white;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.auto{
+    position: absolute;
+    width: 480px;
+    margin-top: -130px;
+    display: flex;
+    justify-content: center;
+}
+.auto{
+    border: 5px solid rgb(202, 20, 20);
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+}
+.auto:not(:last-child){
+    margin-right: 10px;
+}
+#radio1:checked ~ .auto .auto-btn1{
+    background-color: white;
+}
+
+
+

@@ -1,0 +1,75 @@
+@charset "UTF-8"
+;*{
+    margin: 0;
+    padding: 0px;
+}
+@media screen and (min-width:792px) {
+    body{
+        margin: auto;
+        max-width: 900px;
+    }
+    nav{
+        margin-left: 140px;
+    }
+    #imagem{
+        height: 320px;
+        margin: auto;
+        margin-left: 40px;
+    }
+    #imagem section{
+        min-width: 170px;
+        max-width: 220px;
+        height: 270px;
+        margin-left: 60px;
+        margin-top: 15px;
+    }
+    .paragrafo{
+        margin: auto;
+        width: 620px;
+        
+    }
+    #look{
+        width: 600px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        margin: auto;
+        font-size: 1.3em;
+    }
+    #lista{
+        margin-bottom: 50px;
+    }
+    #lista section{
+        margin-left: 110px;
+    }
+    h2{
+        padding-top: 10px;
+        margin-left: 50px;
+    }
+    .nlista li{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #lista{
+        margin-bottom: 50px;
+    }
+    #lista section{
+        margin-left: 120px;
+    }
+    #texto{
+        height: 360px;
+        width: 600px;
+        margin: auto;
+        padding: 8px;
+    }
+    #texto .carrossel{
+        width: 90%;
+        height: 290px;   
+     
+    }
+    
+    .imagem img{
+        width: 264px;
+        
+    }
+     
+}
